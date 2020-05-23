@@ -1,0 +1,197 @@
+#title {
+
+  background-color: #ff4c68;
+}
+
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight:900;
+  color: white;
+
+}
+
+h2 {
+
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size:1.5rem;
+}
+
+p {
+
+  color: #8f8f8f;
+}
+
+.container-fluid {
+
+  padding: 3% 15%;
+  padding-bottom: 8%;
+}
+
+.navbar {
+
+  padding: 0 0 3rem 0;
+
+}
+
+.navbar-brand {
+  font-family: ubuntu;
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+
+.download-button
+{
+  margin: 3% 1% 3%;
+}
+
+
+/* Image icon css */
+.imgicon
+{
+  color: #ef8172;
+  margin: 0.6rem;
+}
+
+.imgicon:hover {
+
+  color: #ff4c68;
+}
+
+
+.iphone-img {
+
+  width: 60%;
+  transform: rotate(25deg);
+  z-index: 1;
+  position: absolute;
+  left: 50px;
+
+}
+
+
+
+/* Features section*/
+#features {
+
+  padding: 10% 7%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.featurescol {
+      text-align: center;
+}
+
+
+/* Testimonials section*/
+#testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.testimonial-image {
+
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+
+    padding: 7% 15% 4%;
+
+}
+
+
+/* Press Section */
+#press {
+background-color: #ef8172;
+text-align:center;
+}
+
+.press-logo {
+
+  width: 20%;
+  padding: 2% 2%;
+}
+
+
+/* Pricing Section  */
+
+#pricing {
+
+  text-align: center;
+  padding: 6%;
+}
+
+.pricingcolumn {
+
+  padding: 3% 2%;
+}
+
+/*Mobile view edit*/
+
+@media (max-width: 986px) {
+
+  .iphone-img {
+
+    position:static;
+    transform: rotate(0deg);
+    width: 60%;
+
+  }
+
+  #title {
+    text-align: center;
+  }
+
+
+}
+
+/*call to action section*/
+#cta {
+
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-h3 {
+
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+/*Footer section*/
+
+#footer {
+
+  background-color: white;
+  text-align: center;
+  padding: 5% 15%;
+
+}
+
+.footer-icons {
+
+  margin: 2% 0.90%;
+}
